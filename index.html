@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>나의 사진 갤러리</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+      text-align: center;
+    }
+
+    header {
+      background-color: #333;
+      color: white;
+      padding: 20px 0;
+    }
+
+    h1 {
+      margin: 0;
+    }
+
+    .description {
+      margin: 20px;
+      font-size: 18px;
+      color: #555;
+    }
+
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      padding: 20px;
+      max-width: 1000px;
+      margin: 0 auto;
+    }
+
+    .gallery img {
+      width: 100%;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+
+    footer {
+      background-color: #333;
+      color: white;
+      padding: 10px;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>📷 나의 사진 갤러리</h1>
+  </header>
+
+  <div class="description">
+    <p>제가 직접 찍은 사진들을 공유하는 공간입니다. 아름다운 순간들을 함께 감상해보세요!</p>
+  </div>
+
+  <div class="gallery">
+    <img src="https://picsum.photos/id/1015/600/400" alt="사진1">
+    <img src="https://picsum.photos/id/1016/600/400" alt="사진2">
+    <img src="https://picsum.photos/id/1020/600/400" alt="사진3">
+    <img src="https://picsum.photos/id/1024/600/400" alt="사진4">
+    <img src="https://picsum.photos/id/1033/600/400" alt="사진5">
+    <img src="https://picsum.photos/id/1045/600/400" alt="사진6">
+  </div>
+
+  <footer>
+    ⓒ 2025 202034436 이성훈의 사진공유사이트
+  </footer>
+
+</body>
+</html>
